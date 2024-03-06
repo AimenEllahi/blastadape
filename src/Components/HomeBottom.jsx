@@ -20,22 +20,19 @@ export const options = {
 
 export default function HomeBottom() {
   return (
-    <div className='home-bottom w-full h-full relative -mt-20 pt-[140px]'>
-      <div className='home-bottom-header text-[#fed501] md:text-[64px] text-4xl not-italic font-bold leading-[normal] flex items-center justify-center'>
+    <div className='home-bottom w-full  h-full relative -mt-24 pt-[140px]'>
+      <div className='home-bottom-header  text-[#fed501] md:text-[64px] text-4xl not-italic font-bold leading-[normal] flex items-center justify-center rubik'>
         Tokenomics
       </div>
-      <div className='home-bottom-header-desc flex flex-col md:flex-col gap-1 justify-center items-center mt-[33px]'>
-        <div className='home-bottom-header-desc-text1 text-[#fcd13b] text-xl not-italic font-medium leading-[normal]'>
-          $BAPE
-        </div>
+      <div className='home-bottom-header-desc flex flex-row gap-1 justify-center items-center mt-10'>
         <div className='home-bottom-header-desc-text2 text-[#909090] px-4 md:p-0 md:text-xl text-sm not-italic font-medium leading-[normal] md:w-full w-[90%] text-center'>
-          is one big airdrop for Blast depositors, contributors and apes that
-          can influence.
+          <span className=' text-[#fcd13b] '>$BAPE</span> is one big airdrop for
+          Blast depositors, contributors and apes that can influence.
         </div>
       </div>
       <div>
         <div className='home-bottom-tbl flex flex-col md:flex-row gap-[70px] items-center justify-center mt-20'>
-          <div className='home-bottom-tbl-treasury flex items-center flex-col md:w-[322px] md:h-[197px] w-[280px] h-[147px] shrink-0 rounded-[10px] border-t-4 border-t-[#f3d126] border-solid'>
+          <div className='home-bottom-tbl-treasury flex items-center flex-col md:w-[250px] xl:w-[322px] md:h-[197px] w-[280px] h-[147px] shrink-0 rounded-[10px] border-t-4 border-t-[#f3d126] border-solid bg-gradient-custom'>
             <div className='home-bottom-tbl-treasury-headerbox md:w-[228px] md:h-[50px] w-[200px] h-[40px] shrink-0 shadow-[0px_4px_26.7px_0px_rgba(243,165,2,0.25)] flex items-center justify-center text-[#3f3511] md:text-[32px] text-3xl not-italic font-bold leading-[normal] -mt-6 rounded-[10px] border-t-[#fcd13b] border-t border-solid'>
               TREASURY
             </div>
@@ -46,7 +43,7 @@ export default function HomeBottom() {
               </div>
             </div>
           </div>
-          <div className='home-bottom-tbl-bapers flex items-center flex-col md:w-[322px] md:h-[197px] w-[280px] h-[147px] shrink-0 rounded-[10px] border-t-4 border-t-[#f3d126] border-solid'>
+          <div className='home-bottom-tbl-bapers flex items-center flex-col md:w-[250px] xl:w-[322px] md:h-[197px] w-[280px] h-[147px] shrink-0 rounded-[10px] border-t-4 border-t-[#f3d126] border-solid bg-gradient-custom'>
             <div className='home-bottom-tbl-bapers-headerbox md:w-[228px] md:h-[50px] w-[200px] h-[40px] shrink-0 shadow-[0px_4px_26.7px_0px_rgba(243,165,2,0.25)] flex items-center justify-center text-[#3f3511] md:text-[32px] text-3xl not-italic font-bold leading-[normal] -mt-6 rounded-[10px] border-t-[#fcd13b] border-t border-solid'>
               BAPERS
             </div>
@@ -56,7 +53,7 @@ export default function HomeBottom() {
               </div>
             </div>
           </div>
-          <div className='home-bottom-tbl-liquidity flex items-center flex-col md:w-[322px] md:h-[197px] w-[280px] h-[147px] shrink-0 rounded-[10px] border-t-4 border-t-[#f3d126] border-solid'>
+          <div className='home-bottom-tbl-liquidity flex items-center flex-col md:w-[250px] xl:w-[322px] md:h-[197px] w-[280px] h-[147px] shrink-0 rounded-[10px] border-t-4 border-t-[#f3d126] border-solid bg-gradient-custom'>
             <div className='home-bottom-tbl-liquidity-headerbox md:w-[228px] md:h-[50px] w-[200px] h-[40px] shrink-0 shadow-[0px_4px_26.7px_0px_rgba(243,165,2,0.25)] flex items-center justify-center text-[#3f3511] md:text-[32px] text-3xl not-italic font-bold leading-[normal] -mt-6 rounded-[10px] border-t-[#fcd13b] border-t border-solid'>
               LIQUIDITY
             </div>

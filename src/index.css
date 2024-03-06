@@ -2,6 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* GLOBAL */
 :root {
@@ -75,6 +76,21 @@
   font-family: "Planet of the Apes";
 }
 
+
+.rubik-400 {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
 /* .home-top-desc-p1 {
   font-family: Rubik;
 }
@@ -87,10 +103,10 @@
     url("/fonts/planet-of-the-apes.woff") format("woff");
 }
 
-.home-middle {
+/* .home-middle {
   background: url(/img/mid-bg.png);
   @apply bg-no-repeat bg-cover bg-center;
-}
+} */
 
 .home-bottom {
   background: url(/img/bot-bg.png);
@@ -247,4 +263,13 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   @apply m-0;
   -webkit-appearance: none;
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(90deg, rgba(240, 198, 65, 0) -20.05%, rgba(138, 114, 37, 0.4) 51.89%, rgba(240, 198, 65, 0) 123.18%);
+}
+
+
+@media screen and (min-width: 2000px) {
+  .home-middle {}
 }
