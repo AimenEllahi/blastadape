@@ -59,12 +59,12 @@
 .home-top-ape-text {
   font-family: "Planet of the Apes";
 }
-.home-top-desc-p1 {
+/* .home-top-desc-p1 {
   font-family: Rubik;
 }
 .home-top-desc-p2 {
   font-family: Rubik;
-}
+} */
 @font-face {
   font-family: "Planet of the Apes";
   src: url("/fonts/planet-of-the-apes.woff2") format("woff2"),
@@ -78,12 +78,11 @@
 }
 .home-middle-header {
   text-shadow: 0px 4px 66.3px rgba(249, 133, 67, 0.7);
-  font-family: Rubik;
 }
-.home-middle-desc {
+/* .home-middle-desc {
   @apply text-[#898584] text-center text-xl not-italic font-medium leading-[normal];
   font-family: Rubik;
-}
+} */
 .home-middle-pcr-post,
 .home-middle-pcr-captivate,
 .home-middle-pcr-reward {
@@ -93,7 +92,6 @@
     rgba(138, 114, 37, 0.2) 51.89%,
     rgba(240, 198, 65, 0) 123.18%
   );
-  font-family: Rubik;
 }
 .home-middle-howto {
   background: linear-gradient(
