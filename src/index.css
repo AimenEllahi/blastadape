@@ -102,9 +102,8 @@
     rgba(240, 198, 65, 0) 123.18%
   );
   text-shadow: 0px 4px 66.3px rgba(249, 133, 67, 0.7);
-  font-family: Rubik;
 }
-.home-middle-howto-desc-bubble-text {
+/* .home-middle-howto-desc-bubble-text {
   font-family: Rubik;
 }
 .home-bottom-header {
@@ -115,7 +114,7 @@
 }
 .home-bottom-header-desc-text2 {
   font-family: Rubik;
-}
+} */
 .home-bottom-tbl-treasury,
 .home-bottom-tbl-bapers,
 .home-bottom-tbl-liquidity {
@@ -139,9 +138,9 @@
       #fcd673 160.76%
     ),
     #fcd13b;
-  font-family: Rubik;
+  /* font-family: Rubik; */
 }
-.home-bottom-tbl-treasury-desc,
+/* .home-bottom-tbl-treasury-desc,
 .home-bottom-tbl-bapers-desc,
 .home-bottom-tbl-liquidity-desc {
   font-family: Rubik;
@@ -160,17 +159,17 @@
 }
 .home-bottom-header2-desc {
   font-family: Rubik;
-}
+} */
 .home-bottom-content-box {
   background: rgba(175, 136, 34, 0.14);
-  font-family: Rubik;
+  /* font-family: Rubik; */
 }
-.home-bottom-content-box-text {
+/* .home-bottom-content-box-text {
   font-family: Rubik;
-}
+} */
 .home-bottom-content-box-polygon {
   background: url(/img/home-bottom-polygon.svg) no-repeat;
-  font-family: Rubik;
+  /* font-family: Rubik; */
 }
 input {
   @apply bg-transparent select-text border-none;
