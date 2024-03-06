@@ -72,6 +72,7 @@
 }
 .home-middle {
   background: url(/img/mid-bg.png);
+  @apply bg-no-repeat bg-cover bg-center;
 }
 .home-bottom {
   background: url(/img/bot-bg.png);

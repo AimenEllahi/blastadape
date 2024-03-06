@@ -21,7 +21,7 @@ export default function HomeMiddle() {
         </div>
       </div>
       <div className="home-middle-pcr-wrapper flex justify-center flex-wrap">
-        <div className="home-middle-pcr flex justify-center mt-10 ">
+        <div className="home-middle-pcr flex justify-center mt-20 ">
           <div className="home-middle-pcr-post w-[40%] md:w-[25vw] md:h-[108px] h-28 shrink-0 justify-center items-center flex text-[#fed501] md:text-[32px] text-lg not-italic font-medium leading-[normal] rounded-[10px] border-t-4 border-t-[#f3d126] border-solid">
             POST
           </div>
