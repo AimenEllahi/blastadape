@@ -6,7 +6,7 @@ import HomeMiddle from "./HomeMiddle";
 
 export default function Home() {
   return (
-    <div className="home-wrapper w-screen h-full">
+    <div className="home-wrapper w-screen h-full ">
       <HomeTop />
       <HomeMiddle />
       <HomeBottom />

@@ -76,6 +76,7 @@
 }
 .home-bottom {
   background: url(/img/bot-bg.png);
+  @apply bg-no-repeat bg-cover bg-center;
 }
 .home-middle-header {
   text-shadow: 0px 4px 66.3px rgba(249, 133, 67, 0.7);
@@ -148,21 +149,25 @@
 .home-bottom-desc {
   font-family: Rubik;
 }
-.home-bottom-header2-t1 {
-  font-family: Rubik;
-}
-.home-bottom-header2-t2 {
-  font-family: Rubik;
-}
-.home-bottom-header2-t3 {
-  font-family: Rubik;
-}
+
+
+
 .home-bottom-header2-desc {
   font-family: Rubik;
 } */
 .home-bottom-content-box {
   background: rgba(175, 136, 34, 0.14);
   /* font-family: Rubik; */
+}
+.home-bottom-header2-t1 {
+  text-shadow: 0px 4px 66.3px rgba(249, 133, 67, 0.7);
+}
+.home-bottom-header2-t2 {
+  text-shadow: 0px 4px 66.3px rgba(249, 133, 67, 0.7);
+}
+
+.home-bottom-header2-t3 {
+  text-shadow: 0px 4px 66.3px rgba(255, 255, 255, 0.7);
 }
 /* .home-bottom-content-box-text {
   font-family: Rubik;
@@ -181,7 +186,7 @@ img {
   @apply align-middle;
 }
 a {
-  @apply no-underline text-inherit hover:no-underline hover:text-inherit active:no-underline focus:no-underline;
+  @apply no-underline text-inherit   hover:no-underline hover:text-inherit active:no-underline focus:no-underline;
 }
 a:active {
   outline: none;
